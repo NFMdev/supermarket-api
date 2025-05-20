@@ -1,0 +1,39 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+applicatiom.properties
+src/main/resources/application.properties
+
+### OS ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### Logs and env ###
+*.log
+.env
+.env.*
+*.bak
+*.tmp
+*.swp
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### MongoDB ###
+dump/
